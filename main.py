@@ -28,7 +28,7 @@ def pedido():
     seguir_pidiendo = True
     while seguir_pidiendo == True:
         plato = input().capitalize() #usamos capitalize para poder poner el plato en mays o min indistintamente
-        if (plato == 'Nada mas' or plato == 'nada mas'):
+        if (plato == 'Nada mas'):
             seguir_pidiendo = False
         elif (plato in menu):
             comanda.append(plato) # Añadimos plato a la comanda
